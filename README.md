@@ -1,6 +1,14 @@
-# NetrisCrowdStrike Automation Tools
+# FalconPy Automations v2
 
-This repository contains scripts for automating CrowdStrike Falcon configuration tasks. These tools help streamline the setup and management of CrowdStrike Falcon environments, particularly for MSPs managing multiple CIDs.
+This repository is a new and improved version (v2) of [FalconPy_Automations](https://github.com/Don-Swanson/FalconPy_Automations). It contains enhanced scripts for automating CrowdStrike Falcon configuration tasks. These tools help streamline the setup and management of CrowdStrike Falcon environments, particularly for MSSPs managing multiple CIDs.
+
+## What's New in v2
+
+- Improved error handling and robustness
+- Enhanced support for multiple CIDs
+- Updated to use the latest FalconPy SDK with APIHarnessV2
+- More comprehensive documentation
+- Better security practices for credential management
 
 ## Scripts Overview
 
@@ -163,3 +171,6 @@ If you encounter issues:
 ## Contributing
 
 Contributions to improve these scripts are welcome. Please feel free to submit pull requests or open issues for any bugs or feature requests. 
+
+## Disclaimer
+As always, please review any script you find on the internet before using it. You alone are responsible for the scripts you run.
