@@ -1,0 +1,51 @@
+#CrowdStrike authentication
+clientid = 'YOUR_CLIENT_ID_HERE'
+clientsec = 'YOUR_CLIENT_SECRET_HERE'
+
+#List of Existing CIDs Formatted as a Dictionary with CID as the Key and CID Name as the Value
+cids = {
+    "PARENT_CID_HERE": "Parent CID Name",
+    "CHILD_CID_1_HERE": "Child CID 1 Name",
+    "CHILD_CID_2_HERE": "Child CID 2 Name",
+}
+
+# Policy IDs for CID_Setup.py
+# These IDs are specific to your environment and should be updated accordingly
+
+# Prevention policy IDs to assign to "ALL Hosts" group
+prevention_policy_ids = [
+    "PREVENTION_POLICY_ID_1",  # Description of policy 1
+    "PREVENTION_POLICY_ID_2",  # Description of policy 2
+    "PREVENTION_POLICY_ID_3"   # Description of policy 3
+]
+
+# N-2 Sensor update policy IDs to assign to "ALL Hosts" group
+sensor_update_policy_ids = [
+    "SENSOR_UPDATE_POLICY_ID_1",
+    "SENSOR_UPDATE_POLICY_ID_2",
+    "SENSOR_UPDATE_POLICY_ID_3"
+]
+
+# Sensor update policy IDs for uninstall groups
+uninstall_policy_ids = [
+    "UNINSTALL_POLICY_ID_1",
+    "UNINSTALL_POLICY_ID_2",
+    "UNINSTALL_POLICY_ID_3"
+]
+
+# Sensor update policy IDs for N-1 updates group
+n1_policy_ids = [
+    "N1_POLICY_ID_1",
+    "N1_POLICY_ID_2",
+    "N1_POLICY_ID_3"
+]
+
+# Configuration for policy matching
+policy_names_to_match = [
+    "Phase 1 - initial deployment",
+    "Phase 2 - interim protection",
+    "Phase 3 - optimal protection"
+]
+
+# Terms to exclude when matching policies
+exclude_terms = ["Global"] 
